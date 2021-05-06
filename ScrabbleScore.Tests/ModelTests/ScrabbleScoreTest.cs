@@ -19,5 +19,14 @@ namespace ScrabbleScoreTesting
       // Assert
       Assert.AreEqual(expectedScore, returnedScore);
     }
+
+    [TestMethod]
+    public void GetWordScore_B_Three()
+    {
+      string word = "b";
+      int expectedScore = 3;
+      int returnedScore = ScrabbleScore.GetWordScore(word);
+      Assert.AreEqual(expectedScore, returnedScore);
+    }
   }
 }
