@@ -15,7 +15,7 @@ namespace ScrabbleScoreNamespace
     private static Dictionary<char, int> _scoreSheet = new Dictionary<char, int>()
     {
       {'a', 1},
-      {'b', 0}
+      {'b', 3}
     };
 
     private static int GetLetterScore(char letter)
